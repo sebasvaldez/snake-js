@@ -1,0 +1,42 @@
+body {
+  background: #1c92d2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f2fcfe,
+    #1c92d2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f2fcfe,
+    #1c92d2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.title {
+  font-size: 50px;
+  color: rgb(27, 20, 63);
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 4em;
+
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+}
+
+@media all and (min-width: 330px) {
+  canvas {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  canvas {
+    width: 400px;
+    height: 400px;
+  }
+}
